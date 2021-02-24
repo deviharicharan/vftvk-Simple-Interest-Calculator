@@ -27,5 +27,6 @@ function compute() { //main compute function which computes the simple interest 
 }
 
 function sliderChange(val) {
-    document.getElementById("sliderVal").innerHTML = val + "%"; //this is the function which displays the slider value on the webpage 
+    document.getElementById("sliderVal").innerHTML = val + "%";
+    compute(); //this is the function which displays the slider value on the webpage 
 }
